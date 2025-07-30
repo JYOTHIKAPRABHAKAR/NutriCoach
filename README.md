@@ -1,5 +1,7 @@
 # NutriCoach - AI-Powered Nutrition Coaching Platform
 
+🌐 **Live Demo**: [https://nutricoach-1.onrender.com](https://nutricoach-1.onrender.com)
+
 ## 🎯 Overview
 
 NutriCoach is a comprehensive AI-powered nutrition coaching platform that helps users create personalized meal plans, track their macronutrients, and achieve their health goals. The application combines advanced AI technology with user-friendly interfaces to provide a complete nutrition management solution.
@@ -85,7 +87,7 @@ NutriCoach is a comprehensive AI-powered nutrition coaching platform that helps 
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/JYOTHIKAPRABHAKAR/NutriCoach.git
    cd NutriCoach
    ```
 
@@ -244,4 +246,4 @@ For support and questions:
 
 ---
 
-**Built with ❤️ for better nutrition and health outcomes** 
+**Built with ❤️ for better nutrition and health outcomes**
