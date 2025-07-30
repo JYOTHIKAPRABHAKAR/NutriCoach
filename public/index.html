@@ -482,8 +482,18 @@
         };
 
         // --- Event Listeners ---
-        showSignup.addEventListener('click', (e) => { e.preventDefault(); showScreen(signupScreen); });
-        showLogin.addEventListener('click', (e) => { e.preventDefault(); showScreen(loginScreen); });
+        showSignup.addEventListener('click', (e) => { 
+            e.preventDefault(); 
+            document.getElementById('signupEmail').value = '';
+            document.getElementById('signupPassword').value = '';
+            showScreen(signupScreen); 
+        });
+        showLogin.addEventListener('click', (e) => { 
+            e.preventDefault(); 
+            document.getElementById('loginEmail').value = '';
+            document.getElementById('loginPassword').value = '';
+            showScreen(loginScreen); 
+        });
         homeLoginBtn.addEventListener('click', () => showScreen(loginScreen));
         homeSignupBtn.addEventListener('click', () => showScreen(signupScreen));
         getStartedBtn.addEventListener('click', () => showScreen(signupScreen));
